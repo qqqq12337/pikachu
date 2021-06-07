@@ -1,0 +1,63 @@
+import   "1dba39fad9b90d335731891f3d743fb3:./css.js";
+const $1dba39fad9b90d335731891f3d743fb3$var$player = {
+    id: undefined,
+    time: 100,
+    ui: {
+        demo: document.querySelector('#demo'),
+        demo2: document.querySelector('#demo2')
+    },
+    events: {
+        '#btnPause': 'pause',
+        '#btnPlay': 'play',
+        '#btnSlow': 'slow',
+        '#btnNormal': 'normal',
+        '#btnFast': 'fast'
+    },
+    n: 1,
+    init: ()=>{
+        $1dba39fad9b90d335731891f3d743fb3$var$player.ui.demo.innerText = $1dba39fad9b90d335731891f3d743fb3$import$d3391407afdaf02$9099ad97b570f7c.substr(0, $1dba39fad9b90d335731891f3d743fb3$var$player.n);
+        $1dba39fad9b90d335731891f3d743fb3$var$player.ui.demo2.innerHTML = $1dba39fad9b90d335731891f3d743fb3$import$d3391407afdaf02$9099ad97b570f7c.substr(0, $1dba39fad9b90d335731891f3d743fb3$var$player.n);
+        $1dba39fad9b90d335731891f3d743fb3$var$player.bindEvents();
+        $1dba39fad9b90d335731891f3d743fb3$var$player.play();
+    },
+    bindEvents: ()=>{
+        for(let key in $1dba39fad9b90d335731891f3d743fb3$var$player.events)if ($1dba39fad9b90d335731891f3d743fb3$var$player.events.hasOwnProperty(key)) {
+            const value = $1dba39fad9b90d335731891f3d743fb3$var$player.events[key]// pause / play / slow
+            ;
+            document.querySelector(key).onclick = $1dba39fad9b90d335731891f3d743fb3$var$player[value];
+        }
+    },
+    run: ()=>{
+        $1dba39fad9b90d335731891f3d743fb3$var$player.n += 1;
+        if ($1dba39fad9b90d335731891f3d743fb3$var$player.n > $1dba39fad9b90d335731891f3d743fb3$import$d3391407afdaf02$9099ad97b570f7c.length) {
+            window.clearInterval($1dba39fad9b90d335731891f3d743fb3$var$player.id);
+            return;
+        }
+        $1dba39fad9b90d335731891f3d743fb3$var$player.ui.demo.innerText = $1dba39fad9b90d335731891f3d743fb3$import$d3391407afdaf02$9099ad97b570f7c.substr(0, $1dba39fad9b90d335731891f3d743fb3$var$player.n);
+        $1dba39fad9b90d335731891f3d743fb3$var$player.ui.demo2.innerHTML = $1dba39fad9b90d335731891f3d743fb3$import$d3391407afdaf02$9099ad97b570f7c.substr(0, $1dba39fad9b90d335731891f3d743fb3$var$player.n);
+        $1dba39fad9b90d335731891f3d743fb3$var$player.ui.demo.scrollTop = $1dba39fad9b90d335731891f3d743fb3$var$player.ui.demo.scrollHeight;
+    },
+    play: ()=>{
+        window.clearInterval($1dba39fad9b90d335731891f3d743fb3$var$player.id);
+        $1dba39fad9b90d335731891f3d743fb3$var$player.id = setInterval($1dba39fad9b90d335731891f3d743fb3$var$player.run, $1dba39fad9b90d335731891f3d743fb3$var$player.time);
+    },
+    pause: ()=>{
+        window.clearInterval($1dba39fad9b90d335731891f3d743fb3$var$player.id);
+    },
+    slow: ()=>{
+        $1dba39fad9b90d335731891f3d743fb3$var$player.pause();
+        $1dba39fad9b90d335731891f3d743fb3$var$player.time = 300;
+        $1dba39fad9b90d335731891f3d743fb3$var$player.play();
+    },
+    normal: ()=>{
+        $1dba39fad9b90d335731891f3d743fb3$var$player.pause();
+        $1dba39fad9b90d335731891f3d743fb3$var$player.time = 100;
+        $1dba39fad9b90d335731891f3d743fb3$var$player.play();
+    },
+    fast: ()=>{
+        $1dba39fad9b90d335731891f3d743fb3$var$player.pause();
+        $1dba39fad9b90d335731891f3d743fb3$var$player.time = 0;
+        $1dba39fad9b90d335731891f3d743fb3$var$player.play();
+    }
+};
+$1dba39fad9b90d335731891f3d743fb3$var$player.init();

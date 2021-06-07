@@ -1,0 +1,14 @@
+13
+33D:\yyHTML\pikachu-1\src\style.css132672865733995557 0
+24D:\yyHTML\pikachu-1\dist132672874877543880 1
+23D:\yyHTML\pikachu-1\src132672872700905459 1
+46D:\yyHTML\pikachu-1\dist\index.bd78eeec.js.map132672525685991205 0
+30D:\yyHTML\pikachu-1\src\css.js132672874876169940 0
+35D:\yyHTML\pikachu-1\dist\index.html132672525686041065 0
+34D:\yyHTML\pikachu-1\src\index.html132672867117909136 0
+31D:\yyHTML\pikachu-1\src\test.js132672873766664107 0
+34D:\yyHTML\pikachu-1\dist\test.html132672873769462338 0
+33D:\yyHTML\pikachu-1\src\test.html132672865156901978 0
+42D:\yyHTML\pikachu-1\dist\index.bd78eeec.js132672525685971253 0
+41D:\yyHTML\pikachu-1\dist\test.15efcf68.js132672874877444175 0
+45D:\yyHTML\pikachu-1\dist\test.15efcf68.js.map132672874877503988 0

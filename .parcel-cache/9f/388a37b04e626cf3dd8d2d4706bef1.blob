@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>皮卡丘</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="76d74868bf480873460adb8aad1df89c">
 </head>
 <body>
   <div class="skin">
@@ -13,12 +13,6 @@
     <div class="eye right"></div>
     <div class="nose">
       <div class="yuan"></div>
-    </div>
-    <div class="face left">
-      <img src="./images/flash.gif">
-    </div>
-    <div class="face right">
-      <img src="./images/flash.gif">
     </div>
     <div class="mouth">
       <div class="up">
@@ -32,6 +26,6 @@
       </div>
     </div>
   </div>
-  <script src="main.js"></script>
+  <script src="67e2e1d839de85b19f58d77aecf7b303"></script>
 </body>
 </html>
