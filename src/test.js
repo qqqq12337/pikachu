@@ -6,7 +6,7 @@ const player = {
   time: 100,
   ui: {
     demo: document.querySelector('#demo'),
-    demo2: document.querySelector('#demo2')
+    demo2: document.querySelector('#demo2 style')
   },
   events: {
     '#btnPause': 'pause',
