@@ -1,20 +1,23 @@
-19
-33D:\yyHTML\pikachu-1\src\style.css132674627752538238 0
-24D:\yyHTML\pikachu-1\dist132675259210172170 1
-23D:\yyHTML\pikachu-1\src132674621722597548 1
+22
+33D:\yyHTML\pikachu-1\src\style.css132675495098489762 0
+24D:\yyHTML\pikachu-1\dist132675495840439810 1
+23D:\yyHTML\pikachu-1\src132675403278513474 1
 30D:\yyHTML\pikachu-1\src\css.js132674634306777217 0
-35D:\yyHTML\pikachu-1\dist\index.html132675259210022631 0
-34D:\yyHTML\pikachu-1\src\index.html132674624809961397 0
-31D:\yyHTML\pikachu-1\src\test.js132674637265821047 0
-31D:\yyHTML\pikachu-1\src\main.js132674621722597548 0
-33D:\yyHTML\pikachu-1\src\test.html132672865156901978 0
-43D:\yyHTML\pikachu-1\dist\index.0fb3a1b3.css132675259210032624 0
+31D:\yyHTML\pikachu-1\src\main.js132675495083184378 0
+34D:\yyHTML\pikachu-1\dist\test.html132675495840360045 0
+33D:\yyHTML\pikachu-1\src\test.html132675493627423268 0
 47D:\yyHTML\pikachu-1\dist\index.0fb3a1b3.css.map132675259210162481 0
+31D:\yyHTML\pikachu-1\src\test.js132675495151477262 0
+43D:\yyHTML\pikachu-1\dist\index.0fb3a1b3.css132675443633044180 0
 43D:\yyHTML\pikachu-1\dist\index.6f839c6a.css132675243364510804 0
 47D:\yyHTML\pikachu-1\dist\index.6f839c6a.css.map132675243364740933 0
 42D:\yyHTML\pikachu-1\dist\index.7967a2c9.js132675259210032624 0
 46D:\yyHTML\pikachu-1\dist\index.7967a2c9.js.map132675259210102355 0
 42D:\yyHTML\pikachu-1\dist\index.bd78eeec.js132675243364740933 0
 46D:\yyHTML\pikachu-1\dist\index.bd78eeec.js.map132675243364870593 0
-41D:\yyHTML\pikachu-1\dist\test.15efcf68.js132672877798745194 0
-45D:\yyHTML\pikachu-1\dist\test.15efcf68.js.map132672877798849979 0
+41D:\yyHTML\pikachu-1\dist\test.15efcf68.js132675417028994903 0
+45D:\yyHTML\pikachu-1\dist\test.15efcf68.js.map132675417028994903 0
+41D:\yyHTML\pikachu-1\dist\test.46bf4000.js132675480082533660 0
+45D:\yyHTML\pikachu-1\dist\test.46bf4000.js.map132675480082593491 0
+41D:\yyHTML\pikachu-1\dist\test.cc0c7d66.js132675495840360045 0
+45D:\yyHTML\pikachu-1\dist\test.cc0c7d66.js.map132675495840419860 0

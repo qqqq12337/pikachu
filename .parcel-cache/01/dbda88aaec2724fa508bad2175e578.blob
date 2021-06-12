@@ -18,7 +18,8 @@
   <button id="btnNormal">中速</button>
   <button id="btnFast">快速</button>
 </div>
-<style>* {box-sizing: border-box;}
+<style data-parcel-key="bf96a1a9eb0da3db82aa735691c38602">
+  * {box-sizing: border-box;}
   *::before, *::after {box-sizing: border-box;}
   #buttons {
     position: fixed;
@@ -81,6 +82,6 @@
     </div>
   </div>
 </div>
-<script src="./test.15efcf68.js"></script>
+<script src="59bc471e807f3680672f4abe4a4a002a"></script>
 </body>
 </html>
